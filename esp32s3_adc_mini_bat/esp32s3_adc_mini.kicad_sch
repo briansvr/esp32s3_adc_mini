@@ -1,0 +1,336 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "653e6366-f1a6-41e9-883c-109905f9b5fe")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 153.67 60.96)
+		(size 38.1 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0e1efc31-eefe-4fbe-91a5-cd0bd2ffeb2b")
+		(property "Sheetname" "USB_ENTRY"
+			(at 153.67 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_ENTRY.kicad_sch"
+			(at 153.67 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32s3_adc_mini"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 128.27)
+		(size 35.56 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13310e95-0c9c-4f23-8b61-3e5639e9888d")
+		(property "Sheetname" "VBUS_LDO"
+			(at 72.39 127.5584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VBUSLDO.kicad_sch"
+			(at 72.39 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32s3_adc_mini"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 125.73)
+		(size 17.78 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "57fe20c1-9551-474b-b8fd-d71de66eda43")
+		(property "Sheetname" "BTNS"
+			(at 147.32 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BTNS.kicad_sch"
+			(at 147.32 144.0946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32s3_adc_mini"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 49.53)
+		(size 39.37 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "76e0d6fd-ab34-4073-aa25-de2458d10814")
+		(property "Sheetname" "ADC"
+			(at 212.09 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 212.09 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32s3_adc_mini"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 60.96)
+		(size 36.83 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bcbbd743-099d-479c-aeb3-b497135f53a4")
+		(property "Sheetname" "ESP32-S3-WROOM-1"
+			(at 76.2 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32S3WROOM1.kicad_sch"
+			(at 76.2 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32s3_adc_mini"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 213.36 129.54)
+		(size 16.51 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee266d4e-be23-468a-be6d-f43a7fb213b0")
+		(property "Sheetname" "FIXING_HOLES"
+			(at 213.36 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FIXINGHOLES.kicad_sch"
+			(at 213.36 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32s3_adc_mini"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 96.52)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f84138c4-48cd-427f-8a8c-a7675454f0ac")
+		(property "Sheetname" "LINE-IN"
+			(at 243.84 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LINEIN.kicad_sch"
+			(at 243.84 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32s3_adc_mini"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
