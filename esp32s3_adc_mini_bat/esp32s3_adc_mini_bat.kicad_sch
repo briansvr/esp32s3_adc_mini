@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
 					(page "3")
 				)
@@ -90,7 +90,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
 					(page "4")
 				)
@@ -136,7 +136,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
 					(page "5")
 				)
@@ -159,7 +159,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "76e0d6fd-ab34-4073-aa25-de2458d10814")
-		(property "Sheetname" "ADC"
+		(property "Sheetname" "CODEC"
 			(at 212.09 48.8184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -170,7 +170,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADC.kicad_sch"
+		(property "Sheetfile" "CODEC.kicad_sch"
 			(at 212.09 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -182,7 +182,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
 					(page "7")
 				)
@@ -228,7 +228,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
 					(page "2")
 				)
@@ -274,7 +274,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
 					(page "6")
 				)
@@ -320,7 +320,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
 					(page "8")
 				)

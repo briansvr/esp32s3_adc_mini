@@ -844,6 +844,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 73.66) (xy 157.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2846ca-1cae-4a9d-8891-1cb82bf4beaf")
+	)
+	(wire
+		(pts
 			(xy 93.98 78.74) (xy 88.9 78.74)
 		)
 		(stroke
@@ -922,6 +932,16 @@
 		)
 		(uuid "f0b914f6-d6d0-40a4-9af8-79a46d2ed631")
 	)
+	(label "CODEC_AGND"
+		(at 157.48 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d70006bf-a836-40ca-8305-e174b98b3547")
+	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 128.27 72.39 0)
@@ -992,7 +1012,7 @@
 			(uuid "be401c75-d777-4059-bafb-f01f9286a345")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/13310e95-0c9c-4f23-8b61-3e5639e9888d"
 					(reference "#PWR013")
 					(unit 1)
@@ -1074,7 +1094,7 @@
 			(uuid "217f31fc-70c0-432c-b6c7-5282645f870e")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/13310e95-0c9c-4f23-8b61-3e5639e9888d"
 					(reference "C4")
 					(unit 1)
@@ -1152,9 +1172,87 @@
 			(uuid "d0e70584-5715-4c47-b0bb-11c57534c9d8")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/13310e95-0c9c-4f23-8b61-3e5639e9888d"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c9ab9dd-9448-472a-8870-2aec30eaf761")
+		(property "Reference" "#PWR041"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ed5199b-d8bd-4e54-877f-d68cdc0b913f")
+		)
+		(instances
+			(project "esp32s3_adc_mini_bat"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/13310e95-0c9c-4f23-8b61-3e5639e9888d"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1230,7 +1328,7 @@
 			(uuid "05ea1db1-c0f7-475b-9c38-ceee1d2fab78")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/13310e95-0c9c-4f23-8b61-3e5639e9888d"
 					(reference "#PWR012")
 					(unit 1)
@@ -1319,7 +1417,7 @@
 			(uuid "006aabc9-eed7-4c2b-a7e9-61c11d54d519")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/13310e95-0c9c-4f23-8b61-3e5639e9888d"
 					(reference "U3")
 					(unit 1)
@@ -1401,7 +1499,7 @@
 			(uuid "56539ba4-fa34-4e48-9a40-ea6c5bf98e25")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/13310e95-0c9c-4f23-8b61-3e5639e9888d"
 					(reference "C3")
 					(unit 1)

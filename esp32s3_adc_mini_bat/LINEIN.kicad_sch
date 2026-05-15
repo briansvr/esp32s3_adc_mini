@@ -543,7 +543,7 @@
 			(uuid "e5a18e75-546f-49b0-bf94-a0783e400572")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/f84138c4-48cd-427f-8a8c-a7675454f0ac"
 					(reference "#PWR034")
 					(unit 1)
@@ -662,7 +662,7 @@
 			(uuid "9fd527e7-f968-4ae3-8f36-22afd88cbb33")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/f84138c4-48cd-427f-8a8c-a7675454f0ac"
 					(reference "CN1")
 					(unit 1)

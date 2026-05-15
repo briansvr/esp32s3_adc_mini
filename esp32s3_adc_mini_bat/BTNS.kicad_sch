@@ -1098,7 +1098,7 @@
 			(uuid "6d731d48-533f-4fac-881a-9ada27bfad16")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "#PWR022")
 					(unit 1)
@@ -1176,7 +1176,7 @@
 			(uuid "4bfec855-0f7e-4375-a982-dc3153a97963")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "#PWR017")
 					(unit 1)
@@ -1258,7 +1258,7 @@
 			(uuid "f52b530b-72fd-4a34-af45-c5729d5856dc")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "R4")
 					(unit 1)
@@ -1370,7 +1370,7 @@
 			(uuid "17c311a0-b4da-46aa-baad-73c165cb2bde")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "SW1")
 					(unit 1)
@@ -1450,7 +1450,7 @@
 			(uuid "d840da03-d4c8-4f50-b213-722b1590f89c")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "R5")
 					(unit 1)
@@ -1532,7 +1532,7 @@
 			(uuid "b1e5434f-2dfa-468d-917a-acd8a23bc2a6")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "C7")
 					(unit 1)
@@ -1610,7 +1610,7 @@
 			(uuid "fe131cb8-088d-42b2-8d36-383edb04f5a9")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "#PWR019")
 					(unit 1)
@@ -1688,7 +1688,7 @@
 			(uuid "1e5453d3-f0af-4e5b-a7a4-7ca369609d00")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "#PWR021")
 					(unit 1)
@@ -1766,7 +1766,7 @@
 			(uuid "d287941b-4f30-42f8-9dfa-e4c140cf5264")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "#PWR018")
 					(unit 1)
@@ -1848,7 +1848,7 @@
 			(uuid "72736cc1-d24b-438c-be46-94eff204a6e2")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "C8")
 					(unit 1)
@@ -1928,7 +1928,7 @@
 			(uuid "c53bc759-01c0-42ee-b5dc-7a0e53da83c9")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "R7")
 					(unit 1)
@@ -2010,7 +2010,7 @@
 			(uuid "8eb89f91-b552-49dd-a254-67a464020683")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "R6")
 					(unit 1)
@@ -2122,7 +2122,7 @@
 			(uuid "f3136e74-d17e-4bd8-82e3-9f3b89802197")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "SW2")
 					(unit 1)
@@ -2200,7 +2200,7 @@
 			(uuid "91d65165-8bfb-4a88-861d-57c3e6718e4c")
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/57fe20c1-9551-474b-b8fd-d71de66eda43"
 					(reference "#PWR020")
 					(unit 1)

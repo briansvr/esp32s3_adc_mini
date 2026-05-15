@@ -497,7 +497,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp32s3_adc_mini.kicad_pro",
+    "filename": "esp32s3_adc_mini_bat.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -729,12 +729,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "esp32s3_adc_mini.kicad_sch",
-        "name": "esp32s3_adc_mini",
+        "filename": "esp32s3_adc_mini_bat.kicad_sch",
+        "name": "esp32s3_adc_mini_bat",
         "uuid": "653e6366-f1a6-41e9-883c-109905f9b5fe"
       }
     ],
-    "used_designators": "CN1,SW2-3",
+    "used_designators": "#PWR41-42,#PWR45-51,R11-16,C24-27",
     "variants": [
       {
         "name": "BAT+ES7210"
@@ -744,7 +744,7 @@
   "sheets": [
     [
       "653e6366-f1a6-41e9-883c-109905f9b5fe",
-      "esp32s3_adc_mini"
+      "esp32s3_adc_mini_bat"
     ],
     [
       "bcbbd743-099d-479c-aeb3-b497135f53a4",
@@ -768,7 +768,7 @@
     ],
     [
       "76e0d6fd-ab34-4073-aa25-de2458d10814",
-      "ADC"
+      "CODEC"
     ],
     [
       "f84138c4-48cd-427f-8a8c-a7675454f0ac",

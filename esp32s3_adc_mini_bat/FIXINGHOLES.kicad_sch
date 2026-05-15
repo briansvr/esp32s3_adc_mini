@@ -173,7 +173,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/ee266d4e-be23-468a-be6d-f43a7fb213b0"
 					(reference "H2")
 					(unit 1)
@@ -249,7 +249,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/ee266d4e-be23-468a-be6d-f43a7fb213b0"
 					(reference "H4")
 					(unit 1)
@@ -325,7 +325,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/ee266d4e-be23-468a-be6d-f43a7fb213b0"
 					(reference "H1")
 					(unit 1)
@@ -401,7 +401,7 @@
 			)
 		)
 		(instances
-			(project "esp32s3_adc_mini"
+			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/ee266d4e-be23-468a-be6d-f43a7fb213b0"
 					(reference "H3")
 					(unit 1)
