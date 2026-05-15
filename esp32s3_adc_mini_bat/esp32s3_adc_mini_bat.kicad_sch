@@ -144,6 +144,52 @@
 		)
 	)
 	(sheet
+		(at 26.67 93.98)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "58b781fe-e897-4a46-8401-7e95824c527a")
+		(property "Sheetname" "BAT"
+			(at 26.67 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BAT.kicad_sch"
+			(at 26.67 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32s3_adc_mini_bat"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 212.09 49.53)
 		(size 39.37 31.75)
 		(exclude_from_sim no)

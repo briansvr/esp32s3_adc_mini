@@ -55,7 +55,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_f7ff5f75",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_f7ff5f55",
     "zone_display_mode": 0
   },
   "git": {
@@ -65,7 +65,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "esp32s3_adc_mini.kicad_prl",
+    "filename": "esp32s3_adc_mini_bat.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

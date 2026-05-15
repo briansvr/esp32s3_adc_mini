@@ -2935,16 +2935,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.66) (xy 91.44 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fdf2ac5-880f-42ee-9d91-cd381a1b95a1")
-	)
-	(wire
-		(pts
 			(xy 160.02 144.78) (xy 170.18 144.78)
 		)
 		(stroke
@@ -3002,6 +2992,16 @@
 			(type default)
 		)
 		(uuid "90d1ba58-77fd-4ce0-a49e-fa9aeefc2cfc")
+	)
+	(wire
+		(pts
+			(xy 81.28 73.66) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f72a4a-7ee6-46d4-921f-baf4a8d82ad8")
 	)
 	(wire
 		(pts
@@ -3445,13 +3445,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 55.88) (xy 121.92 55.88)
+			(xy 121.92 55.88) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4c1335d-986e-436d-8476-1cbc81d2ea31")
+		(uuid "f46fcd44-8141-497e-bda4-9692dd6538ee")
 	)
 	(wire
 		(pts
@@ -3790,30 +3790,6 @@
 		(uuid "26eb47eb-c42c-485d-a895-4dddb69cedea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.0387 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "IO8"
-		(shape bidirectional)
-		(at 160.02 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "292f4f5a-500c-41f2-866c-6cdff09be22a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.7787 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4185,30 +4161,6 @@
 			)
 		)
 	)
-	(global_label "IO18"
-		(shape bidirectional)
-		(at 132.08 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "50a01405-0076-456c-b090-ceadbbd42d27")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.5308 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "IO42"
 		(shape bidirectional)
 		(at 132.08 83.82 0)
@@ -4257,19 +4209,19 @@
 			)
 		)
 	)
-	(global_label "IO8"
-		(shape bidirectional)
-		(at 81.28 73.66 180)
+	(global_label "I2C_CLK"
+		(shape output)
+		(at 132.08 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "6311d02f-c864-4d39-b72d-2875d07b42d6")
+		(uuid "5d3f76bd-25ee-48c7-9e85-0b2390480856")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0387 73.66 0)
+			(at 142.6852 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4277,7 +4229,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4354,7 +4306,7 @@
 		)
 	)
 	(global_label "SCKI"
-		(shape bidirectional)
+		(shape output)
 		(at 81.28 58.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4365,7 +4317,7 @@
 		)
 		(uuid "761d77d0-bca9-4814-aa4a-aca98539ff53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.8292 58.42 0)
+			(at 73.9405 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4641,6 +4593,30 @@
 			)
 		)
 	)
+	(global_label "I2C_DAT"
+		(shape output)
+		(at 81.28 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b05e1e61-8994-4f8d-9943-1c798eeaa371")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.9167 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IO1"
 		(shape bidirectional)
 		(at 220.98 107.95 180)
@@ -4902,6 +4878,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_DAT"
+		(shape output)
+		(at 160.02 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbb5694e-c0b2-4a6b-8eb9-9438d76b3b9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.6567 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5690,7 +5690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c87e334-5037-4224-84a6-bf5772c52a2f")
+		(uuid "837bbda9-4c7a-4642-9b5e-d51726bb0e5d")
 		(property "Reference" "#PWR024"
 			(at 163.83 149.86 0)
 			(hide yes)
@@ -5702,7 +5702,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VBUS"
 			(at 156.21 149.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +5747,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7872812b-541d-4a31-9ee8-60061cd707be")
+			(uuid "857d52dc-3ee7-44c3-ba86-7a0a0d1a2260")
 		)
 		(instances
 			(project "esp32s3_adc_mini_bat"

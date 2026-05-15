@@ -529,7 +529,7 @@
         "microvia_drill": 0.3302,
         "name": "GPIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
@@ -542,10 +542,25 @@
         "diff_pair_width": 0.3838,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3132,
         "tuning_profile": ""
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.1524,
+        "microvia_diameter": 0.6858,
+        "microvia_drill": 0.3302,
+        "name": "VBUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3132,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -573,6 +588,10 @@
       {
         "netclass": "GPIO",
         "pattern": "IO*"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "VBUS"
       }
     ]
   },
@@ -734,7 +753,7 @@
         "uuid": "653e6366-f1a6-41e9-883c-109905f9b5fe"
       }
     ],
-    "used_designators": "#PWR41-42,#PWR45-51,R11-16,C24-27",
+    "used_designators": "#PWR24,#PWR52-55,D4-5,R9-10,SW3",
     "variants": [
       {
         "name": "BAT+ES7210"
@@ -773,6 +792,10 @@
     [
       "f84138c4-48cd-427f-8a8c-a7675454f0ac",
       "LINE-IN"
+    ],
+    [
+      "58b781fe-e897-4a46-8401-7e95824c527a",
+      "BAT"
     ]
   ],
   "text_variables": {},
