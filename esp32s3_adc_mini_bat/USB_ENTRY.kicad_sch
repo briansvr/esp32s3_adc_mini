@@ -1972,16 +1972,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 49.53) (xy 153.67 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fe1a477-7087-453f-a10f-a7e3078aea5a")
-	)
-	(wire
-		(pts
 			(xy 76.2 49.53) (xy 96.52 49.53)
 		)
 		(stroke
@@ -2242,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 49.53) (xy 133.35 49.53)
+			(xy 121.92 49.53) (xy 153.67 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2672,86 +2662,6 @@
 			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/0e1efc31-eefe-4fbe-91a5-cd0bd2ffeb2b"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 49.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "194dea9c-dc87-4054-8c00-11c83218b2e0")
-		(property "Reference" "R3"
-			(at 137.16 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 137.16 45.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.16 51.308 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a31b8d51-d49a-4ac1-85a8-cd35ad00b1f7")
-		)
-		(pin "2"
-			(uuid "27b00c7d-6c37-4a3a-8827-6c7ec5d30eae")
-		)
-		(instances
-			(project "esp32s3_adc_mini_bat"
-				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/0e1efc31-eefe-4fbe-91a5-cd0bd2ffeb2b"
-					(reference "R3")
 					(unit 1)
 				)
 			)

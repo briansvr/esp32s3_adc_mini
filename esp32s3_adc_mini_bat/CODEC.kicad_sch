@@ -1219,6 +1219,12 @@
 		(uuid "15ed266a-899a-4599-b7ec-e026fe47f488")
 	)
 	(junction
+		(at 130.81 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cd1d25d-427d-4a01-b55b-6a303d534b5d")
+	)
+	(junction
 		(at 233.68 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1375,16 +1381,6 @@
 			(type default)
 		)
 		(uuid "08a590e7-4acc-4eca-9988-57874171eaed")
-	)
-	(wire
-		(pts
-			(xy 114.3 96.52) (xy 179.07 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08cbcd70-8cb2-4d0e-be79-694eb6a464d8")
 	)
 	(wire
 		(pts
@@ -1588,6 +1584,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 96.52) (xy 130.81 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499cfaef-6ead-4db3-b273-4a015be9f7d0")
+	)
+	(wire
+		(pts
 			(xy 233.68 129.54) (xy 233.68 133.35)
 		)
 		(stroke
@@ -1685,6 +1691,16 @@
 			(type default)
 		)
 		(uuid "6c4b1e0e-a18d-4b3b-9649-475ca7772062")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 130.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7010f071-9a37-474f-ba3a-1bad7ecc8162")
 	)
 	(wire
 		(pts
@@ -21860,26 +21876,6 @@
 			"gg=="
 		)
 	)
-	(label "CODEC_AGND"
-		(at 179.07 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "115f414d-056e-4e5e-a573-8b49707c7d95")
-	)
-	(label "CODEC_AGND"
-		(at 130.81 144.78 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2c6d9b4-a220-4b6a-bb0e-c171decabed9")
-	)
 	(global_label "I2C_CLK"
 		(shape input)
 		(at 179.07 99.06 0)
@@ -24462,6 +24458,84 @@
 			(project "esp32s3_adc_mini_bat"
 				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/76e0d6fd-ab34-4073-aa25-de2458d10814"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1f93fcf-137e-4ba2-a71d-8730d4b09ba5")
+		(property "Reference" "#PWR056"
+			(at 130.81 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0075bc64-bbcf-4fbe-8bd0-43fefc078e54")
+		)
+		(instances
+			(project "esp32s3_adc_mini_bat"
+				(path "/653e6366-f1a6-41e9-883c-109905f9b5fe/76e0d6fd-ab34-4073-aa25-de2458d10814"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
