@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.1*%
-%TF.CreationDate,2026-09-08T18:33:28+02:00*%
+%TF.CreationDate,2026-09-10T17:39:56+02:00*%
 %TF.ProjectId,esp32s3_adc_mini_bat,65737033-3273-4335-9f61-64635f6d696e,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.1) date 2026-09-08 18:33:28*
+G04 Created by KiCad (PCBNEW 10.0.1) date 2026-09-10 17:39:56*
 %MOMM*%
 %LPD*%
 G01*

@@ -707,7 +707,7 @@
 				(pins "1" "3" "5" "2" "6" "4")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.91 -1.56)
@@ -1093,7 +1093,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3 -2.8)
@@ -2056,7 +2056,7 @@
 			(at 0.7425 -4.05 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5a54c52c-e78b-4098-a081-290ad9f90eb0")
+			(uuid "fd18b37c-fe0f-4d05-a999-3c6301b2a16c")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -2068,7 +2068,7 @@
 		(property "Value" "PJ-320D"
 			(at 0 7.5 90)
 			(layer "F.Fab")
-			(uuid "194374c4-ce62-4dd6-b5fe-e4de18d2a6a0")
+			(uuid "7460f113-db20-4eee-82fa-80ea167b0654")
 			(effects
 				(font
 					(size 1 1)
@@ -2080,7 +2080,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd016357-a35e-49cd-986f-424782b7bcf1")
+			(uuid "be1928ad-d347-4ffd-8c63-693ea1fe683e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2091,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a543b5bd-7b44-40ee-9a6e-0183c8b61ad3")
+			(uuid "33c71418-6e04-416a-91b2-1cb0033be418")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2145,7 @@
 				(pins "1" "4" "3" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.7 -3)
@@ -2719,7 +2719,7 @@
 				(pins "1" "3" "2" "4" "5")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.91 -1.56)
@@ -5079,7 +5079,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.58 -1.85)
@@ -8353,6 +8353,7 @@
 		(property "Reference" "C2"
 			(at -0.03 1.4 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5c499abd-d0e9-4632-8a08-1e1fbabe6345")
 			(effects
 				(font
@@ -8595,7 +8596,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -9.2 -12.9)
@@ -10592,7 +10593,7 @@
 				(pins "5" "1" "2" "3" "4")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.32 -4.37)
@@ -12664,7 +12665,7 @@
 			(at 0.0135 1.72 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4e3a0c43-b206-41cd-8e59-1997da69249b")
+			(uuid "cdfe7919-175b-48a2-9ae9-a4743d7a3588")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -12676,7 +12677,7 @@
 		(property "Value" "100n"
 			(at 0 1.68 90)
 			(layer "F.Fab")
-			(uuid "5faf0f5a-0ad1-49f6-b6d8-57f3f3ae109f")
+			(uuid "aa3e3ae8-9e11-404d-ae3d-cba08fe6b2b0")
 			(effects
 				(font
 					(size 1 1)
@@ -12688,7 +12689,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "124681f6-912f-4fde-ace5-f1d40d534fab")
+			(uuid "4359c805-8993-490d-ba3f-6f7bb7d1dd6b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12699,7 +12700,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2811760-c901-4d04-afda-82f46276c935")
+			(uuid "93a01296-984f-4333-8f6f-08d84790da22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12921,7 +12922,7 @@
 				(pins "1" "2" "3" "4" "9" "8" "7" "6" "5")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.55 -2.05)
@@ -13679,15 +13680,15 @@
 		)
 	)
 	(gr_rect
-		(start 83.6 58.08)
-		(end 118.6 114.08)
+		(start 65.75 51.25)
+		(end 111.25 118.75)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Cu")
-		(uuid "047d493e-2adb-4e0f-8718-7d357127ff33")
+		(uuid "6e4e8246-e9e2-4a3f-b101-bed2d8993210")
 	)
 	(gr_line
 		(start 134.36 81.1)
@@ -13791,7 +13792,7 @@
 		(uuid "919427dd-95c2-4dee-98d1-e02c2646095c")
 	)
 	(gr_text "BATTERY"
-		(at 95 85 0)
+		(at 84.5 85.75 0)
 		(layer "F.Cu")
 		(uuid "854a679b-9563-4efb-b6ee-1f59b518f22e")
 		(effects
@@ -13840,6 +13841,82 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "6f193a37-980f-4caf-bdba-0bbae852ec68")
+		(pts
+			(xy 65.75 118.75) (xy 65.75 51.25)
+		)
+		(height -5.25)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "67,5"
+			(at 58.7 85 90)
+			(layer "F.Cu")
+			(uuid "6f193a37-980f-4caf-bdba-0bbae852ec68")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "d83ba802-ec9a-4ee5-a4ad-d230c54e80d0")
+		(pts
+			(xy 65.75 118.75) (xy 111.25 118.75)
+		)
+		(height 5.25)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "45,5"
+			(at 88.5 122.2 0)
+			(layer "F.Cu")
+			(uuid "d83ba802-ec9a-4ee5-a4ad-d230c54e80d0")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
 		)
 	)
 	(dimension
